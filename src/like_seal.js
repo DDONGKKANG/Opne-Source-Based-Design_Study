@@ -1,6 +1,8 @@
+/* eslint-disable max-classes-per-file */
+/* eslint-disable react/no-unused-state */
 import * as React from 'react';
 import Paper from '@material-ui/core/Paper';
-import { ViewState } from '@devexpress/dx-react-scheduler';
+import { ViewState, EditingState } from '@devexpress/dx-react-scheduler';
 import {
   Scheduler,
   WeekView,
